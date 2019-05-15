@@ -1,0 +1,121 @@
+@import url('http://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row {
+  width: 100%
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  color: #67809f;
+  width: 90%;
+  float: left;
+}
+
+.reload {
+  margin-bottom: 10px;
+  color: rgb(51, 110, 123);
+  width: 10%;
+  float: left;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin: 0 auto;
+  width: 40%;
+  padding-top: 5px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.board-block {
+  width: 33.33%;
+  float: left;
+}
+
+.red-color {
+  color: rgba(145, 18, 18,0.7);
+}
+
+.green-color {
+  color: rgba(13, 112, 54,0.7);
+}
+
+.irrelevant-block {
+  opacity: 0.4;
+}
+
+.winning-block {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 1px 1px 20px #ffcb05;
+  }
+  to {
+    text-shadow: 1px 1px 1px #f9690e;
+  }
+}
+
+.square {
+  width: 100%;
+  text-align: center;
+  align-self:center;
+  background:transparent;
+  transition:all .5s ease;
+  font-size:2rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border:solid 1px #41403E;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  font-family: 'Merienda One', Helvetica, sans-serif;
+  /*text-shadow: 3px 3px 3px #fff;*/
+}
+.square::before {
+  content: "";
+  width: 1px;
+  margin-left: -1px;
+  float: left;
+  height: 0;
+  padding-top: 100%;
+}
+.square::after { /* to clear float */
+  content: "";
+  display: table;
+  clear: both;
+}
