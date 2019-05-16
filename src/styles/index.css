@@ -2,7 +2,7 @@
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
 
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 3vw "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
@@ -97,7 +97,7 @@ ol, ul {
   align-self:center;
   background:transparent;
   transition:all .5s ease;
-  font-size:2rem;
+  font-size:8vw;
   letter-spacing:1px;
   outline:none;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
