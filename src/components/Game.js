@@ -3,9 +3,9 @@ import {calculateWinner, getWinningColors, parseState} from '../utils/utils'
 
 const Square = (props) => {
   return (
-    <div className={'square ' + props.textColorClass} onClick={props.onClick}>
+    <button className={'square ' + props.textColorClass} onClick={props.onClick}>
       {props.value}
-    </div>
+    </button>
   );
 };
 
