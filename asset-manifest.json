@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-TicTacToe/static/css/main.89031699.chunk.css",
+    "main.css": "/React-TicTacToe/static/css/main.987edd98.chunk.css",
     "main.js": "/React-TicTacToe/static/js/main.dbae110b.chunk.js",
     "main.js.map": "/React-TicTacToe/static/js/main.dbae110b.chunk.js.map",
     "runtime~main.js": "/React-TicTacToe/static/js/runtime~main.4032e143.js",
@@ -8,8 +8,8 @@
     "static/js/2.7ba3e8e5.chunk.js": "/React-TicTacToe/static/js/2.7ba3e8e5.chunk.js",
     "static/js/2.7ba3e8e5.chunk.js.map": "/React-TicTacToe/static/js/2.7ba3e8e5.chunk.js.map",
     "index.html": "/React-TicTacToe/index.html",
-    "precache-manifest.3216bb269dfa8b6e40cc8df7d6a30258.js": "/React-TicTacToe/precache-manifest.3216bb269dfa8b6e40cc8df7d6a30258.js",
+    "precache-manifest.da63cc0968448f847106bd18fd0116d9.js": "/React-TicTacToe/precache-manifest.da63cc0968448f847106bd18fd0116d9.js",
     "service-worker.js": "/React-TicTacToe/service-worker.js",
-    "static/css/main.89031699.chunk.css.map": "/React-TicTacToe/static/css/main.89031699.chunk.css.map"
+    "static/css/main.987edd98.chunk.css.map": "/React-TicTacToe/static/css/main.987edd98.chunk.css.map"
   }
 }
