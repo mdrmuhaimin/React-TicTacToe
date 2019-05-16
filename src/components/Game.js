@@ -93,12 +93,6 @@ export class Game extends React.Component {
       winningBlock = calculateWinner(squares);
     let colorClass = this.state.colorClass.slice();
     if (winningBlock !== null || squares[i] !== null) {
-      setTimeout((() => {
-              console.log('Resetting board');
-              this.boardReset();
-          }),
-          10000
-      );
       return;
     }
     colorClass[i] = this.state.xIsNext === true ? 'red-color' : 'green-color';
@@ -110,13 +104,6 @@ export class Game extends React.Component {
       xIsNext: !this.state.xIsNext,
       colorClass: colorClass
     });
-    if (calculateWinner(squares) !== null) {
-      setTimeout((() => {
-              this.boardReset();
-          }),
-          10000
-      );
-    }
   }
   renderSquare(i) {
     return <Square 
